@@ -1,0 +1,6 @@
+2024-12-16 19:33:06,824 - INFO: ====== WebDriver manager ======
+2024-12-16 19:33:07,450 - INFO: Get LATEST chromedriver version for google-chrome
+2024-12-16 19:33:07,670 - INFO: Get LATEST chromedriver version for google-chrome
+2024-12-16 19:33:07,874 - INFO: Driver [C:\Users\navje\.wdm\drivers\chromedriver\win64\131.0.6778.108\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-16 19:33:10,683 - INFO: Scraping page 1: https://www.reuters.com/
+2024-12-16 19:34:47,746 - INFO: No more pages to scrape.

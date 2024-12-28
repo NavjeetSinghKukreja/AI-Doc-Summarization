@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Summarization & Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Text Summarization and Sentiment Analysis</h1>
+    <form method="POST">
+        <textarea name="user_text" rows="10" cols="50" placeholder="Enter your text here..."></textarea><br>
+        <input type="submit" value="Analyze">
+    </form>
+    
+    {% if summary %}
+        <h2>Summary:</h2>
+        <p>{{ summary }}</p>
+        
+        <h2>Sentiment:</h2>
+        <p>{{ sentiment }}</p>
+    {% endif %}
+</body>
+</html>
